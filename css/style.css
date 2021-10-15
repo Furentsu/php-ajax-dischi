@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_color_bg {
+    background-color: #222222;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.album {
+    background-color: #282828;
+    width: calc(100% / 5 - 24px);
+    text-align: center;
+    min-height: 400px;
+    margin: 12px;
+    border-radius: 5px;
+    color: #ADADAD;
+}
+
+.album .img-container {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.img-container > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.album h3,
+.album h4 {
+    padding: 5px 0;
+}
